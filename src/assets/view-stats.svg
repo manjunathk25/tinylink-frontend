@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <!-- Bars -->
+  <rect x="4" y="14" width="3" height="6" rx="0.5" ry="0.5" fill="white"></rect>
+  <rect x="10.5" y="10" width="3" height="10" rx="0.5" ry="0.5" fill="white"></rect>
+  <rect x="17" y="6" width="3" height="14" rx="0.5" ry="0.5" fill="white"></rect>
+  
+  <!-- Base line -->
+  <line x1="2" y1="20" x2="22" y2="20" stroke="white" stroke-width="2" stroke-linecap="round"></line>
+</svg>

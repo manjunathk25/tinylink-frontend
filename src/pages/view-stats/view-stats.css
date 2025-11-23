@@ -1,0 +1,168 @@
+/* ============================
+   Container
+============================ */
+
+.stats-container {
+  max-width: 650px;
+  margin: 2.5rem auto;
+  padding: 2rem;
+  background: #ffffff;
+  border-radius: 14px;
+  box-shadow: 0 4px 22px rgba(0, 0, 0, 0.08);
+  border: 1px solid #ebf2f8;
+}
+
+/* ============================
+   Heading
+============================ */
+
+.stats-container h1 {
+  text-align: center;
+  font-size: 2.2rem;
+  font-weight: 600;
+  margin-bottom: 1.8rem;
+  color: #1b4b72;
+  letter-spacing: 0.4px;
+}
+
+/* ============================
+   Back Button
+============================ */
+
+.back-btn {
+  background: #1976d2;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 0.55rem 1.4rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.back-btn:hover {
+  background: #155a9b;
+}
+
+/* ============================
+   Stats Card
+============================ */
+
+.stats-card {
+  margin-top: 1.5rem;
+  padding: 1.5rem 1.4rem;
+  background: #f8fcff;
+  border-radius: 12px;
+  border: 1px solid #d8e8f3;
+  box-shadow: 0 1px 8px rgba(30, 80, 120, 0.08);
+}
+
+.stats-card ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Each row */
+.stats-card li {
+  margin-bottom: 1.1rem;
+  padding-bottom: 0.7rem;
+  border-bottom: 1px solid #e2eef6;
+
+  display: flex;
+  justify-content: space-between;
+  gap: 1.5rem;
+
+  font-size: 1.08rem;
+  color: #244461;
+}
+
+/* Last row without a border */
+.stats-card li:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+/* Key (ID, Short Code, URL) */
+.stats-card strong {
+  width: 150px;
+  font-weight: 600;
+  color: #173a56;
+}
+
+/* Value (dynamic content) */
+.stats-card .long-url {
+  max-width: 100%;
+  display: inline-block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  vertical-align: bottom;
+}
+.stats-card a {
+  flex: 1;
+  text-align: right;
+  word-break: break-all;
+  color: #1d6fc2;
+  font-weight: 500;
+}
+
+.stats-card a:hover {
+  text-decoration: underline;
+}
+
+/* ============================
+   Error Section
+============================ */
+
+.error-container {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.error-image {
+  width: 140px;
+  margin-bottom: 1.2rem;
+}
+
+.error-message {
+  color: #c0392b;
+  font-size: 1.25rem;
+  margin-bottom: 1.4rem;
+}
+
+/* ============================
+   Responsive
+============================ */
+
+@media (max-width: 600px) {
+  .stats-container {
+    max-width: 92%;
+    padding: 1.4rem;
+  }
+
+  .stats-container h1 {
+    font-size: 1.7rem;
+  }
+
+  .stats-card {
+    padding: 1.1rem 1rem;
+  }
+
+  .stats-card li {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.4rem;
+    padding-bottom: 0.9rem;
+  }
+
+  .stats-card strong {
+    width: 100%;
+  }
+
+  .stats-card span,
+  .stats-card a {
+    text-align: left;
+  }
+}

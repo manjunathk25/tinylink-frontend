@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="80" viewBox="0 0 640 160" role="img" aria-label="tnylnk.in logo">
+  <title>tnylnk.in</title>
+
+  <defs>
+    <linearGradient id="g1" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#0ea5a4"/>
+      <stop offset="1" stop-color="#2563eb"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Icon -->
+  <rect x="16" y="16" width="128" height="128" rx="20" fill="url(#g1)"/>
+  <g transform="translate(16,16)">
+    <path d="M36 56c0-9.94 8.06-18 18-18h20" fill="none" stroke="#fff" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M96 76c0 9.94-8.06 18-18 18H58" fill="none" stroke="#fff" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M62 68c6-6 12-6 18 0" fill="none" stroke="#fff" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- Wordmark -->
+  <g transform="translate(168, 96)">
+    <text x="0" y="8" font-family="Inter, ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial" font-weight="700" font-size="48" fill="#0f172a" letter-spacing="-0.5">
+      tnylnk
+    </text>
+    <text x="220" y="8" font-family="Inter, ui-sans-serif, system-ui" font-weight="600" font-size="28" fill="#475569">
+      .in
+    </text>
+
+    <rect x="0" y="24" width="200" height="6" rx="3" fill="#e6eefc" />
+    <rect x="0" y="24" width="60" height="6" rx="3" fill="#c7e3ff" />
+  </g>
+</svg>
+
