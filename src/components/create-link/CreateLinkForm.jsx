@@ -34,6 +34,7 @@ const CreateLinkForm = () => {
     }
     if (!isValidCustomCode(customCode)) {
       toast.warn('Custom code must be exactly 6 alphanumeric characters.');
+      setCreating(false);
       return;
     }
 
