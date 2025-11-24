@@ -29,6 +29,7 @@ const CreateLinkForm = () => {
     setCreating(true);
     if (!isValidUrl(url)) {
       toast.error('Please enter a valid URL.');
+      setCreating(false);
       return;
     }
     if (!isValidCustomCode(customCode)) {
