@@ -6,4 +6,4 @@ export const createShortLink = ({url, customCode}) => axios.post(`${BASE_URL}/ap
 export const getAllLinks = () => axios.get(`${BASE_URL}/api/links`);
 export const getLinkStats = (code) => axios.get(`${BASE_URL}/api/links/${code}`);
 export const deleteLinkByCode = (code) => axios.delete(`${BASE_URL}/api/links/${code}`);
-export const redirectToOriginalUrl = (shortCode) => axios.post(`${BASE_URL}/${shortCode}`);
+export const redirectToOriginalUrl = (shortCode) => axios.get(`${BASE_URL}/${shortCode}`);
